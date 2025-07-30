@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3dbd7a1-35c0-4473-82b1-7268ba3d8818" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/furkantokgz/productapi/Exception/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/furkantokgz/productapi/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furkantokgz/productapi/Controller/ProductController.java" afterDir="false" />
@@ -43,10 +44,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "HTTP Request.scratch | DELETE request.executor": "Run",
+    "HTTP Request.scratch | GET 500 error Internal Server Error.executor": "Run",
+    "HTTP Request.scratch | GET 500 error.executor": "Run",
     "HTTP Request.scratch | GET request to example server.executor": "Run",
     "HTTP Request.scratch | GET request to local REST#1.executor": "Run",
     "HTTP Request.scratch | GET request to local REST#2.executor": "Run",
     "HTTP Request.scratch | GET request to local REST.executor": "Run",
+    "HTTP Request.scratch | POST request error to local REST.executor": "Run",
     "HTTP Request.scratch | POST request to local REST.executor": "Run",
     "HTTP Request.scratch | POST reuqest to local REST.executor": "Run",
     "HTTP Request.scratch | get request.executor": "Run",
@@ -73,16 +77,16 @@
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.ProductApiApplication">
-    <configuration name="scratch | DELETE request" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" executionIdentifier="DELETE request" index="4" runType="Run single request">
+    <configuration name="scratch | GET 500 error Internal Server Error" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" executionIdentifier="GET 500 error Internal Server Error" index="6" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="scratch | GET request to local REST#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" executionIdentifier="GET request to local REST#1" runType="Run single request">
+    <configuration name="scratch | GET 500 error" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" executionIdentifier="GET 500 error" index="6" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="scratch | GET request to local REST#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" executionIdentifier="GET request to local REST#2" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="scratch | POST request to local REST" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" executionIdentifier="POST request to local REST" index="2" runType="Run single request">
+    <configuration name="scratch | POST request error to local REST" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" executionIdentifier="POST request error to local REST" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="scratch | POST reuqest to local REST" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/scratch.http" executionIdentifier="POST reuqest to local REST" index="5" runType="Run single request">
@@ -98,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.scratch | POST reuqest to local REST" />
-        <item itemvalue="HTTP Request.scratch | POST request to local REST" />
-        <item itemvalue="HTTP Request.scratch | GET request to local REST#1" />
-        <item itemvalue="HTTP Request.scratch | DELETE request" />
+        <item itemvalue="HTTP Request.scratch | POST request error to local REST" />
         <item itemvalue="HTTP Request.scratch | GET request to local REST#2" />
+        <item itemvalue="HTTP Request.scratch | POST reuqest to local REST" />
+        <item itemvalue="HTTP Request.scratch | GET 500 error Internal Server Error" />
+        <item itemvalue="HTTP Request.scratch | GET 500 error" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753812142064</updated>
       <workItem from="1753812143474" duration="266000" />
-      <workItem from="1753812429487" duration="9158000" />
+      <workItem from="1753812429487" duration="11439000" />
     </task>
     <servers />
   </component>
