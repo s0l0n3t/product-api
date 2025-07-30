@@ -1,0 +1,10 @@
+{
+  "id": "c22571c7-9b34-4dad-a757-491aa17f3932",
+  "name": "John",
+  "price": 135.35,
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/apiv1/productlist"
+    }
+  }
+}

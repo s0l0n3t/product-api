@@ -1,0 +1,21 @@
+{
+  "_embedded": {
+    "productResponses": [
+      {
+        "id": "cd2cb0c0-6ea0-4d8f-8d87-6106d3d74a3b",
+        "name": "John",
+        "price": 135.35,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/apiv1/productlist"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/apiv1/productlist"
+    }
+  }
+}

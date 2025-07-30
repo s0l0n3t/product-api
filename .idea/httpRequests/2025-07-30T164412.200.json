@@ -1,0 +1,89 @@
+{
+  "_embedded": {
+    "productResponses": [
+      {
+        "id": "fa4015ac-f258-4c81-be42-a8591d62e83c",
+        "name": "John",
+        "price": 133.35,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/apiv1/fa4015ac-f258-4c81-be42-a8591d62e83c"
+          },
+          "products": {
+            "href": "http://localhost:8080/apiv1/productlist"
+          }
+        }
+      },
+      {
+        "id": "1506b47a-1b79-4f15-9ca6-accc0338fa06",
+        "name": "John",
+        "price": 133.35,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/apiv1/1506b47a-1b79-4f15-9ca6-accc0338fa06"
+          },
+          "products": {
+            "href": "http://localhost:8080/apiv1/productlist"
+          }
+        }
+      },
+      {
+        "id": "fd59c1e6-7694-4611-85f8-a3ecd79fb3ba",
+        "name": "John",
+        "price": 135.35,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/apiv1/fd59c1e6-7694-4611-85f8-a3ecd79fb3ba"
+          },
+          "products": {
+            "href": "http://localhost:8080/apiv1/productlist"
+          }
+        }
+      },
+      {
+        "id": "df99e0f5-3832-48ed-81ef-57db85beedb0",
+        "name": "John",
+        "price": 135.35,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/apiv1/df99e0f5-3832-48ed-81ef-57db85beedb0"
+          },
+          "products": {
+            "href": "http://localhost:8080/apiv1/productlist"
+          }
+        }
+      },
+      {
+        "id": "c2750726-5f81-4d1b-81cf-a63a949e657b",
+        "name": "John",
+        "price": 135.35,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/apiv1/c2750726-5f81-4d1b-81cf-a63a949e657b"
+          },
+          "products": {
+            "href": "http://localhost:8080/apiv1/productlist"
+          }
+        }
+      },
+      {
+        "id": "cff6d3da-2663-49b6-8962-cbfa8cb99b49",
+        "name": "John",
+        "price": 133.35,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/apiv1/cff6d3da-2663-49b6-8962-cbfa8cb99b49"
+          },
+          "products": {
+            "href": "http://localhost:8080/apiv1/productlist"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/apiv1/productlist"
+    }
+  }
+}

@@ -38,7 +38,8 @@ public class ProductController {
         List<EntityModel<ProductResponse>> productList = productResponseMap.values().stream()
                 .map(this::toModel)
                 .toList();
-        return CollectionModel.of(productList, linkTo(methodOn(ProductController.class).getAll()).withSelfRel());
+        return CollectionModel.of(productList,
+                linkTo(methodOn(ProductController.class).getAll()).withSelfRel());
     }
 
     @PostMapping("/create")
@@ -71,6 +72,8 @@ public class ProductController {
 
     public EntityModel<ProductResponse> toModel(ProductResponse productResponse) {
         return EntityModel.of(productResponse,
-                linkTo(methodOn(ProductController.class).getAll()).withSelfRel());
+                linkTo(methodOn(ProductController.class).get(productResponse.id())).withSelfRel(),
+                linkTo(methodOn(ProductController.class).getAll()).withRel("products")
+        );
     }
 }

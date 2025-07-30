@@ -1,0 +1,13 @@
+{
+  "id": "1506b47a-1b79-4f15-9ca6-accc0338fa06",
+  "name": "John",
+  "price": 133.35,
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/apiv1/1506b47a-1b79-4f15-9ca6-accc0338fa06"
+    },
+    "products": {
+      "href": "http://localhost:8080/apiv1/productlist"
+    }
+  }
+}
