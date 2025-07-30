@@ -1,3 +1,202 @@
+POST http://localhost:8080/apiv1/create
+Content-Type: application/json
+Content-Length: 39
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John",
+  "price": 135.35
+}
+
+<> 2025-07-30T154054.201.json
+
+###
+
+POST http://localhost:8080/apiv1/create
+Content-Type: application/json
+Content-Length: 35
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John",
+  "price": -1
+}
+
+<> 2025-07-30T153922.400.json
+
+###
+
+POST http://localhost:8080/apiv1/create
+Content-Type: application/json
+Content-Length: 39
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John",
+  "price": 135.35
+}
+
+<> 2025-07-30T153747.201.json
+
+###
+
+POST http://localhost:8080/apiv1/create
+Content-Type: application/json
+Content-Length: 39
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John",
+  "price": 135.35
+}
+
+<> 2025-07-30T153744.201.json
+
+###
+
+GET http://localhost:8080/apiv1/productlist
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-30T153736.200.json
+
+###
+
+DELETE http://localhost:8080/apiv1/f6a37f76-521b-4634-8761-d1d38337b786
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8080/apiv1/create
+Content-Type: application/json
+Content-Length: 39
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John",
+  "price": 135.35
+}
+
+<> 2025-07-30T153559.201.json
+
+###
+
+GET http://localhost:8080/apiv1/productlist
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-30T153551.200.json
+
+###
+
+GET http://localhost:8080/apiv1/e82a4e6a-e5ca-4e8d-9200-c87662f397d4
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-30T150841.200.json
+
+###
+
+GET http://localhost:8080/apiv1/productlist
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-30T150825.200.json
+
+###
+
+POST http://localhost:8080/apiv1/create
+Content-Type: application/json
+Content-Length: 39
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John",
+  "price": 135.35
+}
+
+<> 2025-07-30T150819.201.json
+
+###
+
+GET http://localhost:8080/apiv1/productlist
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-30T150747.200.json
+
+###
+
+GET http://localhost:8080/apiv1/e82a4e6a-e5ca-4e8d-9200-c87662f397d4
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-30T150541.200.json
+
+###
+
+POST http://localhost:8080/apiv1/create
+Content-Type: application/json
+Content-Length: 38
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John",
+  "price": 133.3
+}
+
+<> 2025-07-30T150445.201.json
+
+###
+
+GET http://localhost:8080/apiv1/133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-07-30T150423.500.json
+
+###
+
+POST http://localhost:8080/apiv1/create
+Content-Type: application/json
+Content-Length: 38
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John",
+  "price": 133.3
+}
+
+<> 2025-07-30T150323.201.json
+
+###
+
 GET http://localhost:8080/apiv1/productlist
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.1.4.1
 Accept-Encoding: br, deflate, gzip, x-gzip

@@ -1,0 +1,31 @@
+{
+  "_embedded": {
+    "productResponses": [
+      {
+        "id": "e82a4e6a-e5ca-4e8d-9200-c87662f397d4",
+        "name": "John",
+        "price": 133.3,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/apiv1/productlist"
+          }
+        }
+      },
+      {
+        "id": "7b4c2d1d-8955-41a9-aa4a-df8eda1d7b2a",
+        "name": "John",
+        "price": 133.3,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/apiv1/productlist"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/apiv1/productlist"
+    }
+  }
+}

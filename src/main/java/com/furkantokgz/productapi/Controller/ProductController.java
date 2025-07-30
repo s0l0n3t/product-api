@@ -2,6 +2,7 @@ package com.furkantokgz.productapi.Controller;
 
 import com.furkantokgz.productapi.Dto.ProductRequest;
 import com.furkantokgz.productapi.Dto.ProductResponse;
+import jakarta.validation.Valid;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
@@ -39,8 +40,8 @@ public class ProductController {
         return CollectionModel.of(productList, linkTo(methodOn(ProductController.class).getAll()).withSelfRel());
     }
 
-    @PostMapping
-    public ResponseEntity<EntityModel<ProductResponse>> create(@RequestBody ProductRequest productRequest) {
+    @PostMapping("/create")
+    public ResponseEntity<EntityModel<ProductResponse>> create(@Valid @RequestBody ProductRequest productRequest) {
         String id = UUID.randomUUID().toString();
         ProductResponse response = new ProductResponse(id,productRequest.name().toString(), productRequest.price());
         productResponseMap.put(id,response);
